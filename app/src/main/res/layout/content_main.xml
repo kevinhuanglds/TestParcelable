@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="tw.com.ischool.testparcelable.MainActivity"
+    tools:showIn="@layout/activity_main"
+    tools:layout_editor_absoluteX="0dp"
+    tools:layout_editor_absoluteY="81dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="本範例目的要測試 Parcelable 物件可以在 Activity 之間傳遞。請按右下角的粉紅信箱按鈕，就會把 Score 物件傳遞到第二個 Activity，透過 Log.d 列印出來。"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="259dp"
+        app:layout_constraintLeft_toLeftOf="@+id/content_main"
+        tools:layout_constraintLeft_creator="0"
+        app:layout_constraintTop_toTopOf="@+id/content_main"
+        tools:layout_constraintTop_creator="0"
+        app:layout_constraintBottom_toBottomOf="@+id/content_main"
+        tools:layout_constraintBottom_creator="0" />
+
+</android.support.constraint.ConstraintLayout>
